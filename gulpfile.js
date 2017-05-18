@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var sass = require('gulp-sass');
 
 // Basic pattern:
 //
@@ -8,4 +9,10 @@ var gulp = require('gulp');
 
 gulp.task('default', function() {
   console.log('Hello!');
+});
+
+gulp.task('sass', function() {
+  return gulp.src('app/scss/**/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('dist/css'))
 });
