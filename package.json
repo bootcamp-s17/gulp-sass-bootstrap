@@ -1,0 +1,13 @@
+{
+  "name": "gulp-sass",
+  "version": "1.0.0",
+  "description": "Generic project template with gulp and SASS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bootcamp-s17/gulp-sass.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
