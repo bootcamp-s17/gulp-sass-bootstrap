@@ -1,16 +1,6 @@
 /* main */
 
+$body-bg: #ccc;
+
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
-@import "parts/colors";
-@import "parts/fonts";
-
-.testing {
-  width: 71.42857%; 
-}
-
-body {
-  font: 100% $font-stack;
-  background: $md-purple;
-}
 
