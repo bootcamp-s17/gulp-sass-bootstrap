@@ -8,6 +8,11 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "@types/node": "^7.0.18",
+    "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-bootstrap": "^2.0.3",
+    "gulp-sass": "^3.1.0"
   }
 }

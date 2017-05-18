@@ -1,14 +1,16 @@
-/* main.css */
+/* main */
+
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "parts/colors";
+@import "parts/fonts";
 
 .testing {
   width: 71.42857%; 
 }
 
-$md-purple: #9C27B0;
-$md-deep-purple: #673AB7;
-
-$font-stack: Helvetica, sans-serif;
-
 body {
   font: 100% $font-stack;
+  background: $md-purple;
 }
+
