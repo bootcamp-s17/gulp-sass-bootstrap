@@ -1,6 +1,10 @@
 /* main */
 
-$body-bg: #ccc;
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+$body-bg: #3C3530;
+$text-color: #C5C6B6;
+$headings-font-family: 'Courgette', cursive;
 
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
